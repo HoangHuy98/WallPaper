@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.WallDetail">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/img_wallpaperdetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_item"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_monthdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Month"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_authordetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:text="Hoàng"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_background"
+        android:text="Set Background"
+        android:background="@drawable/my_button_bg"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="bottom|center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+
+</FrameLayout>
